@@ -1,0 +1,45 @@
+Contains Axioms in the form of Formula #1 : #2 where #1 is whether or not forces gyrocommutative #2 is whether or not forces associative 
+
+
+
+x + x = 0 : 1 0  
+
+x + y = y + x : 1 ?
+
+
+
+A(x) = - (x) : 1 ? 
+
+
+
+      A(A(x))=x.
+
+      (x!=1)-> (A(x)!= x).
+
+      exists y ((-y)+(A(y)))=x. : ? ? 
+
+
+
+all x all y all z (((x + y) = gyr(x,y,y + x)) 
+
+                  | (x + z) = gyr(x,z,z + x)) 
+
+                  | ((y + z) = gyr(y,z,z + y)) : 1 0
+
+
+
+(x + y)+(w+z) = gyr(x,y,(z+w)+(x+y)) implies gyrocommutativity (can permute either pair or the pair or the pair of pairs) (also not equivalent to gyrocommutativity). (Implies group).
+
+
+
+A(x)=x+x. implies gyrocommutative. (not sure if it implies group). Probably not in the infinite case, but almost certainly in the finite case. 
+
+
+
+A(x)=x+x | x+x = 0  does not imply commutativity for groups.
+
+
+
+com(x,y)=(gyr(-(x),-(y),(x+y))) and  z + com(x,y) = com(x,y)+z : 1 ?
+
+com(x,y)=(gyr(x,y,x+y)) and z + com(x,y) = com(x,y) +z  : 1 ? [both follow from x + y = y + x implies commutative implies gyrocommutative. 
